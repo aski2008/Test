@@ -1,0 +1,99 @@
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore Linux system files
+*~
+.nfs*
+
+# Ignore Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ignore node_modules
+node_modules/
+
+# Ignore build directories
+dist/
+build/
+target/
+out/
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.class
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.log
+
+# Ignore logs and debugging files
+*.log
+*.pid
+*.gz
+
+# Ignore environment-specific files
+.env
+.env.*
+.venv/
+.vscode/
+*.local
+
+# Ignore dependency directories
+vendor/
+venv/
+__pycache__/
+
+# Ignore database and temporary files
+*.sql
+*.sqlite
+*.sqlite3
+*.bak
+
+# Ignore system-generated files
+.trash/
+*.orig
+*.bak
+*.tmp
+*.temp
+*.~*
+
+# Ignore images and media files (optional)
+*.jpg
+*.png
+*.gif
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.mkv
+
+# Ignore compressed files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore documentation files (optional)
+*.doc
+*.docx
+*.pdf
+
+# Ignore custom files specific to the project
+/custom/path/to/file-or-folder/
